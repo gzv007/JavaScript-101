@@ -1,7 +1,20 @@
-function toCelsius(){
-    let fahrenheit = prompt("กรอกอุณภูมิ")
+function toCelsius(fahrenheit){
     let celcuis = (fahrenheit-32)/1.8
-    alert(celcuis)
+    return celcuis
 }
-toCelsius()
+
+function sayHello(username){
+// ในวงเล็บจะเรียก Parametor
+    return username
+}
+let n = prompt("ใส่ชื่อของคุณ")
+alert(sayHello(n)) 
+
+let f = prompt("กรอกอุณภูมิ")
+alert(toCelsius(f))
+document.getElementById("fa").innerHTML = "อุณภูมิที่คุณใส่คือ " + toCelsius(f)
+// ในวงเล็บจะเรียกว่าอาร์กิวเมน
+
+// paramitor เป็นตัวแปรที่เกิดมาพร้อม function จะทำหน้าที่ส่งข้อมูลเข้าไปใน function
+// ส่วน Argument จะส่งข้อมูลให้ Paramitor
 
