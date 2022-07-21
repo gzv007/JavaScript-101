@@ -13,6 +13,10 @@ function sayHello(username){
 function showCelcuis(value){
     alert(toCelsius(value))
 }
+
+function showFahrenheit(value){
+    alert(value)
+}
 // ในวงเล็บจะเรียกว่าอาร์กิวเมน
 
 // paramitor เป็นตัวแปรที่เกิดมาพร้อม function จะทำหน้าที่ส่งข้อมูลเข้าไปใน function
