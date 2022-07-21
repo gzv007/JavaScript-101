@@ -7,12 +7,12 @@ function sayHello(username){
 // ในวงเล็บจะเรียก Parametor
     return username
 }
-let n = prompt("ใส่ชื่อของคุณ")
-alert(sayHello(n)) 
+// let n = prompt("ใส่ชื่อของคุณ")
+// alert(sayHello(n)) 
 
-let f = prompt("กรอกอุณภูมิ")
-alert(toCelsius(f))
-document.getElementById("fa").innerHTML = "อุณภูมิที่คุณใส่คือ " + toCelsius(f)
+function showCelcuis(value){
+    alert(toCelsius(value))
+}
 // ในวงเล็บจะเรียกว่าอาร์กิวเมน
 
 // paramitor เป็นตัวแปรที่เกิดมาพร้อม function จะทำหน้าที่ส่งข้อมูลเข้าไปใน function
